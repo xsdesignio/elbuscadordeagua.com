@@ -152,7 +152,7 @@ header {
         height: 100vh;
         background-color: white;
         box-shadow: rgba(100, 100, 111, 0.159) -7px 0px 16px 0px;
-        transform: scale(0);
+        transform: scaleX(0);
         transition: .2s;
     }
     .links ul {

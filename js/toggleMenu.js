@@ -12,7 +12,7 @@ function openCloseMenu () {
 
     if(isClicked == false) {
         isClicked = true;
-        menu.style.transform = "scale(1)";
+        menu.style.transform = "scaleX(1)";
         menu.style.right = "0px";
         opacityLayer.style.display = "block";
         opacityLayer.style.opacity = "100%";
@@ -20,7 +20,7 @@ function openCloseMenu () {
         closeIcon.classList.remove("hidden");
     } else if(isClicked == true) {
         isClicked = false;
-        menu.style.transform = "scale(0)";
+        menu.style.transform = "scaleX(0)";
         menu.style.right = "-80vw";
         opacityLayer.style.display = "none";
         opacityLayer.style.opacity = "0";
