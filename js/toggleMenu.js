@@ -21,7 +21,7 @@ function openCloseMenu () {
     } else if(isClicked == true) {
         isClicked = false;
         menu.style.transform = "scaleX(0)";
-        menu.style.right = "-80vw";
+        menu.style.right = "-40vw";
         opacityLayer.style.display = "none";
         opacityLayer.style.opacity = "0";
         openIcon.classList.remove("hidden");

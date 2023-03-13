@@ -141,7 +141,7 @@ header {
     }
     .links {
         position: absolute;
-        right: -80vw;
+        right: -40vw;
         top: 0;
         z-index: 20;
         width: 80vw;
