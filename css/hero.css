@@ -1,5 +1,5 @@
 .hero {
-    background: linear-gradient(45deg, rgba(0, 8, 28, 0.6), rgba(0, 8, 28, 0.8)), url('../media/imagen_4.jpg');
+    background: linear-gradient(45deg, rgba(0, 8, 28, 0.6), rgba(0, 8, 28, 0.8)), url('../media/dentro-pozo.jpg');
     background-color: rgba(0, 8, 28, 0.6);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 80vh;
+    min-height: 86vh;
     color: white;
 
     text-shadow: rgba(0, 4, 60, 0.561) 2px 2px 6px;

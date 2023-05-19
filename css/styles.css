@@ -20,7 +20,7 @@ body {
 /* GENERAL STYLES */
 
 h1 {
-    font-family: Montserrat;
+    font-family: 'Lexend';
     font-size: 38px;
     font-weight: 900;
     line-height: 1.2em;
@@ -75,10 +75,10 @@ p {
     text-shadow: none;
 }
 .link-button:hover {
+    border: 1px solid white;
     background-color: rgb(0, 106, 255);
     color: white !important;
     box-shadow: rgba(255, 255, 255, 0.5) 2px 2px 20px;
-    border: none;
 }
 
 .blue-button {

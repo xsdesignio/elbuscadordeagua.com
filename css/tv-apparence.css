@@ -3,8 +3,8 @@
 .tv-appareance {
     display: grid;
     place-items: center;
-    padding: 80px 20px;
-    background: linear-gradient(to right, rgb(0, 25, 89), rgb(0, 3, 51));
+    padding: 60px 20px;
+    background: linear-gradient(to right, rgb(32, 76, 188), rgb(8, 16, 88));
     color: white;
 }
 
@@ -24,11 +24,11 @@
     margin-top: 80px;
 }
 
-.tv-appareance-content div {
+.tv-appareance-content h3 {
+    text-align: center;
 }
 
 .tv-appareance-content div video {
-    margin-top: 20px;
     border-radius: 8px;
     width: 800px;
     max-width: 90vw;
