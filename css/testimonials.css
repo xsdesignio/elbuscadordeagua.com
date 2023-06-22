@@ -32,8 +32,9 @@
 .testimonials-videos--wraper  {
     margin: 40px 0;
     display: grid;
-    place-items: center;
-    width: 100%;
+    place-items: flex-start;
+    width: fit-content;
+    max-width: 100%;
     overflow-x: auto;
     border-radius: 16px;
     background-color: rgb(222, 233, 255);
@@ -43,8 +44,7 @@
     padding: 40px;
     width: fit-content;
     display: flex;
-    justify-content: center;
-    overflow-x: auto;
+    justify-content: flex-start;
     background-color: rgb(222, 233, 255);
 }
 
@@ -80,11 +80,14 @@
 
 /* -------------------- styles for tablets -------------------- */
 @media only screen and (max-device-width: 767px) {
-    .testimonials-videos {
+    .testimonials-videos--wraper {
         margin: 20px 0px 40px 0;
-        width: calc(100vw);
         border-radius: 0;
     }
+    .testimonials-videos {
+        width: 100vw;
+    }
+
 
     .video-item {
         margin: 40px 20px;
