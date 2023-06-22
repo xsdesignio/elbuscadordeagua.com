@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="es">
     <head>
         <meta name="keywords" content="radiestesia zahorí buscador de agua pozo finca agua agua subterranea">
@@ -17,11 +19,7 @@
         <link href="css/testimonials.css" rel="stylesheet" type="text/css">
         <link href="css/animations.css" rel="stylesheet" type="text/css">
         <link href="css/info.css" rel="stylesheet" type="text/css">
-
-        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
     </head>
@@ -52,7 +50,7 @@
                     </li>
                 </ul>
             </nav>
-            <button class="mobile-menu-button" type="button" onclick="openCloseMenu()">
+            <button class="mobile-menu-button" type="button" onclick="openCloseMenu()" aria-label="Open close menu">
                 <img class="open-icon" src="./media/icons/menu.svg" alt="" srcset="./media/icons/menu.svg">
                 <img class="close-icon hidden" src="./media/icons/cross.svg" alt="" srcset="./media/icons/cross.svg">
             </button>
@@ -115,49 +113,56 @@
                     Algunos pozos que me han ido enviando después de señalar donde se encontraban:
                 </h2>
             </div>
-            <div class="testimonials-videos">
-                <div class="video-item">
-                    <video src="./media/videos/testimonios/cliente3.mp4" autoplay controls muted>
-                        <source srcset="./media/videos/cliente3.mp4" type="video/mp4">
-                    </video>
-                    <p>Santa Cruz del Comercio, Granada</p>
-                </div>
-                <div class="video-item">
-                    <video src="./media/videos/testimonios/cliente2.mp4" controls muted>
-                        <source srcset="./media/videos/cliente2.mp4" type="video/mp4">
-                    </video>
-                    <p>Lebrija, Sevilla</p>
-                </div>
+            <div class="testimonials-videos--wraper">
+                <div class="testimonials-videos">
 
-                <div class="video-item">
-                    <video src="./media/videos/testimonios/cliente4.mp4" controls muted>
-                        <source srcset="./media/videos/cliente1.mp4" type="video/mp4">
-                    </video>
-                    <p>Cabrá de Santo Cristo, Jaén</p>
+                    <!-- 
+                    <div class="video-item">
+                        <video src="./media/videos/testimonios/cliente3.mp4" autoplay controls muted>
+                            <source srcset="./media/videos/cliente3.mp4" type="video/mp4">
+                        </video>
+                        <p>Santa Cruz del Comercio, Granada</p>
+                    </div> 
+                    -->
+                    
+                    <div class="video-item">
+                        <video src="./media/videos/testimonios/cliente2.mp4" controls muted>
+                            <source srcset="./media/videos/cliente2.mp4" type="video/mp4">
+                        </video>
+                        <p>Lebrija, Sevilla</p>
+                    </div>
+    
+                    <div class="video-item">
+                        <video src="./media/videos/testimonios/cliente4.mp4" controls muted>
+                            <source srcset="./media/videos/cliente1.mp4" type="video/mp4">
+                        </video>
+                        <p>Cabrá de Santo Cristo, Jaén</p>
+                    </div>
+    
+                    <div class="video-item">
+                        <video src="./media/videos/testimonios/cliente1.mp4" controls muted>
+                            <source srcset="./media/videos/cliente1.mp4" type="video/mp4">
+                        </video>
+                        <p>Benamargosa, Málaga</p>
+                    </div>
+    
+                    <div class="video-item">
+                        <video src="./media/videos/testimonios/cliente5.mp4" controls muted>
+                            <source srcset="./media/videos/cliente1.mp4" type="video/mp4">
+                        </video>
+                        <p>Cabrá de Santo Cristo, Jaén</p>
+                    </div>
+    
                 </div>
-
-                <div class="video-item">
-                    <video src="./media/videos/testimonios/cliente1.mp4" controls muted>
-                        <source srcset="./media/videos/cliente1.mp4" type="video/mp4">
-                    </video>
-                    <p>Benamargosa, Málaga</p>
-                </div>
-
-                <div class="video-item">
-                    <video src="./media/videos/testimonios/cliente5.mp4" controls muted>
-                        <source srcset="./media/videos/cliente1.mp4" type="video/mp4">
-                    </video>
-                    <p>Cabrá de Santo Cristo, Jaén</p>
-                </div>
-
             </div>
+            
         </section>
 
         <!-- ------------------------------------------ TV APPAREANCES ------------------------------------------ -->
         <section class="tv-appareance animate">
             <h1>
                 Aparezco en canales de televisión cómo 
-                <img src="https://files.mediaset.es/cimg/2022/12/20/logo-telecinco_6c87-2.svg?h=63" alt="Telecinco">.
+                <img style="width: 200px; margin-left: 8px;" src="https://files.mediaset.es/cimg/2022/12/20/logo-telecinco_6c87-2.svg?h=63" alt="Telecinco">.
             </h1>
             <div class="separator"></div>
             <div class="tv-appareance-content">

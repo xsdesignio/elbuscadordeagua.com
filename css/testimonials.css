@@ -29,21 +29,31 @@
     font-weight: 400;
 }
 
-.testimonials-videos {
-    margin: 40px 28px 40px 20px;
-    width: calc(100vw - 56px);
-    max-width: 1800px;
-    display: flex;
+.testimonials-videos--wraper  {
+    margin: 40px 0;
+    display: grid;
+    place-items: center;
+    width: 100%;
     overflow-x: auto;
     border-radius: 16px;
+    background-color: rgb(222, 233, 255);
+}
+
+.testimonials-videos {
+    padding: 40px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
     background-color: rgb(222, 233, 255);
 }
 
 .video-item {
     margin: 20px;
     height: fit-content;
-    width: auto;
+    width: fit-content;
     text-align: center;
+    justify-content: center;
     background-color: white;
     border-radius: 8px;
   }
